@@ -201,7 +201,6 @@ if __name__ == '__main__':
         model.save(_epoch)  # save your model after each epoch
         rec_loss.append([loss_train, accuracy_train])
         train_uar.append(UAR_train)
-        print("Epoch: [%2d/%2d], rnn_loss: %.3f"  % (_epoch+1, EPOCHS, loss_train))
         # validation
         if (_epoch + 1) % 1 == 0:
             accuracy_devel = 0
@@ -218,5 +217,10 @@ if __name__ == '__main__':
             UAR_devel /= n_devel
             devel_accuracy.append(accuracy_devel)
             devel_uar.append(UAR_devel)
-            print("Accuracy train: %.3f, Accuracy devel: %.3f, UAR_train: %.3f, UAR_devel: %.3f"  % (accuracy_train, 
-                                                                                                     accuracy_devel, UAR_train, UAR_devel))
+            print("Epoch: [%2d/%2d], rnn_loss: %.3f, Accuracy train: %.3f, Accuracy devel: %.3f, UAR_train: %.3f, UAR_devel: %.3f"  % (_epoch+1, 
+                                                                                                                                       EPOCHS, 
+                                                                                                                                       loss_train, 
+                                                                                                                                       accuracy_train, 
+                                                                                                                                       accuracy_devel, 
+                                                                                                                                       UAR_train, 
+                                                                                                                                       UAR_devel))
