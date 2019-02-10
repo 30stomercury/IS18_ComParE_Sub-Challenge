@@ -1,4 +1,4 @@
-# Self-Assessed Affect Recognition
+# Self-Assessed Affect Sub-challenge, INTERSPEECH 2018
 + The Self-Assessed Affect Sub-Challenge is one of four challenges in The INTERSPEECH 2018 Computational Paralinguistics Challenge. In this sub-callenge, we try to classified four basic emotions annotated in the speech.
 + We beat the baseline provided by the challenge organizer in [here](https://pdfs.semanticscholar.org/783d/2bd2820b35ce7e398be412569e9d5c6f5880.pdf), 
 and won the second place in this challenge.
