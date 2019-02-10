@@ -13,7 +13,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = '0'
 
 
 # load data: eGmaps_lld selfAssesed
-def load_data(feature_path='Feature/eGemaps_lld/ComParE2018_SelfAssessedAffect/'):
+def load_data(feature_path='data/'):
     '''
     shape: [num_data, sequence_length, dimension]
     '''
