@@ -22,4 +22,5 @@ tensorflow               1.4.0
 ```
 
 ## Code:
-+ model_brnn: main codes, including batch genetator and bi-directional LSTM with self-attention framework.
++ data.py: batch generator
++ model_brnn.py: main codes, bi-directional LSTM with self-attention framework.
