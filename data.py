@@ -6,7 +6,7 @@ from sklearn import preprocessing
 from sklearn.preprocessing import OneHotEncoder
 
 # load data: eGmaps_lld selfAssesed
-def load_data(feature_path='data/'):
+def load_data(feature_path='dataset/'):
     '''
     shape: [num_data, sequence_length, dimension]
     '''
